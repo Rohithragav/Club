@@ -1,0 +1,121 @@
+body{
+	width: 100%;
+	background-color: #f36e43;
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+#navheader{
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 50px;
+	padding-top: 25px;
+	vertical-align: baseline;
+	background-color: #1ebea5;
+	box-shadow:  0 3px 4px rgba(0,0,0,0.20), 0 1px 2px rgba(0,0,0,0.24);
+}
+a[id='link']{
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 0.6px;
+	border-radius: 70px;
+	margin-left: 12px;
+	padding-left: 13px;
+	padding-right: 13px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-family: "Segoe UI",Arial,sans-serif;
+
+}
+a{
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.6s;
+}
+a:hover{
+	background: #009688;
+	color: white;
+}
+
+#mn{
+	left: 0;
+	margin-top: 150px;
+	background-color: #2b3643;
+}
+#text{
+	font-family: "Segoe UI",Arial,sans-serif;
+	color: #1f2e2e;
+}
+#logo{
+	width: 300px;
+	padding: 60px 30px 30px;
+	background-color: #f0f5f5;
+	border: 10px solid #11161d;
+	box-shadow: 0 0 200px 0 rgba(0,0,0,.3);
+	border-top: 40px solid #11161d;
+	border-bottom: 40px solid #11161d;
+	border-radius: 5%;
+	animation: pulse 5s infinite;
+	}
+@keyframes pulse {
+  0% {
+    background-color: #8cce69;
+  }
+  100% {
+    background-color: #fff;
+  }
+}
+#content{
+	display: block;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+    line-height: 1.5em;
+	color: #62a0d1;
+}
+#btn{
+	font-size: 30px;
+	width: 250px;
+	height: 60px;
+	background-color: #1ebea5;
+	color: #fff;
+	border-color: #19a08b;
+	border: 8px solid #19a08b;
+	border-radius: 10px;
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.6s;
+    margin: 30px 0px;
+}
+#btn:hover{
+	background-color: #fff;
+	border-color: #fff;
+	color: #19a08b;
+	box-shadow:  0 3px 4px rgba(0,0,0,0.20), 0 1px 2px rgba(0,0,0,0.24);
+}
+#firstEvent{
+	padding: 100px 100px 50px;
+	background-color: #1b222a;
+}
+#inagVideo{
+	padding: 10px;
+	box-shadow: 0 0 200px 0 rgba(0,0,0,.3);
+	background-color: #232b35;
+	border-top:40px solid #1e252e;
+}
+#upcoming{
+	background-color: #fff;
+	padding: 40px 60px;
+}
+.card{
+padding: 20px;
+box-shadow:  0 3px 4px rgba(0,0,0,0.20), 0 1px 2px rgba(0,0,0,0.24);
+border-right: 50px solid #FF9800;	
+background-color: #f4e5cb;
+-webkit-transition-duration: 0.8s; 
+transition-duration: 0.8s;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-right: 100px solid #FF9800;;
+}
