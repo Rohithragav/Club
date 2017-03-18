@@ -1,3 +1,6 @@
+body::-webkit-scrollbar { 
+    display: none; 
+}
 body{
 	width: 100%;
 	background-color: #f36e43;
@@ -15,7 +18,7 @@ body{
 	background-color: #1ebea5;
 	box-shadow:  0 3px 4px rgba(0,0,0,0.20), 0 1px 2px rgba(0,0,0,0.24);
 }
-a[id='link']{
+a[class='link']{
 	font-size: 18px;
 	color: white;
 	text-decoration: none;
@@ -39,9 +42,12 @@ a:hover{
 }
 
 #mn{
-	left: 0;
+	margin-left: auto;
+	left: 0px;
+	right: 0;
 	margin-top: 150px;
 	background-color: #2b3643;
+	padding-bottom: 100px;
 }
 #text{
 	font-family: "Segoe UI",Arial,sans-serif;
@@ -94,6 +100,7 @@ a:hover{
 	box-shadow:  0 3px 4px rgba(0,0,0,0.20), 0 1px 2px rgba(0,0,0,0.24);
 }
 #firstEvent{
+	left: 0px;
 	padding: 100px 100px 50px;
 	background-color: #1b222a;
 }
@@ -104,6 +111,8 @@ a:hover{
 	border-top:40px solid #1e252e;
 }
 #upcoming{
+	left: 0;
+	right: 0;
 	background-color: #fff;
 	padding: 40px 60px;
 }
@@ -117,5 +126,44 @@ transition-duration: 0.8s;
 }
 .card:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    border-right: 100px solid #FF9800;;
+    border-right: 100px solid #FF9800;
+}
+#footer{
+	vertical-align: baseline;
+	background-color: #1e1c1c;
+}
+a[id="mail"]{
+	text-decoration: none;
+	color: #adabab;
+}
+a[id="mail"]:hover{
+	color: #ffffff;
+	background-color: #1e1c1c;
+}
+
+a[class="sm"]{
+	margin: 0px 20px;
+}
+a[class="sm"]:hover{
+	background-color:#1e1c1c; 
+}
+img[class="social-media"]{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.6s;
+}
+img[class="social-media"]:hover{
+	width: 48px;
+	height: 48px;
+	box-shadow:  0 3px 4px rgba(0,0,0,0.20), 0 1px 2px rgba(0,0,0,0.24);
+	background-color: #ffffff;
+	border: 2px solid #cecece;
+}
+#galery-card{
+	box-shadow:  0 3px 4px rgba(0,0,0,0.20), 0 1px 2px rgba(0,0,0,0.24);
+	border-radius: 2px;
+	margin: 1px; 
+	width: 250px;
 }
